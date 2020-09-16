@@ -5,7 +5,7 @@ Corey J. A. Bradshaw,
 Global Ecology,
 Flinders University
 
-URL: GlobalEcologyFlinders.com,
+URL: http://GlobalEcologyFlinders.com;
 e-mail: corey.bradshaw@flinders.edu.au
 
 Accompanies paper:
