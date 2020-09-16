@@ -15,10 +15,10 @@ Bradshaw, CJA, P Haubrock, RN Cuthbert, C Diagne, B Leroy, L Andrews, B Page, AJ
 requires the following packages from the CRAN (https://cran.r-project.org)
 - sandwich
 - ggalluvial
-- lmtest)
+- lmtest
 - robustbase
 - ggplot2
-- ggpubr)
+- ggpubr
 - plyr
 - dplyr
 - grid
