@@ -1,11 +1,12 @@
 # InvasiveSppCostsAustralia
 R Code to calculate costs of invasive species in Australia
 
-Corey J. A. Bradshaw
-Global Ecology
+Corey J. A. Bradshaw,
+Global Ecology,
 Flinders University
-GlobalEcologyFlinders.com
-corey.bradshaw@flinders.edu.au
+
+URL: GlobalEcologyFlinders.com,
+e-mail: corey.bradshaw@flinders.edu.au
 
 Accompanies paper:
 
@@ -27,7 +28,7 @@ requires the following filtered dataset for Australia (not available until after
 - AustraliaUpdate2.csv
 
 see also original InvaCost database publication:
--  Diagne C, Leroy B, Gozlan RE, Vaissiere A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. Scientific Data 7: 277. doi:10.1038/s41597-020-00586-z
+-  Diagne C, Leroy B, Gozlan RE, Vaissiere A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. Scientific Data 7: 277. http://doi.org/10.1038/s41597-020-00586-z
 
 as well as forthcoming paper in Nature:
 - Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2020) Increasing global economic costs of biological invasions. Nature: in press
