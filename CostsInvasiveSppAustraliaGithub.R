@@ -577,19 +577,76 @@ CostsPerYearRaw <- calculateRawAvgCosts(Australia, cost.column = "cost_bil",  in
 CostsPerYearRaw 
 plot(CostsPerYearRaw)
 
-CostsPerYearRaw$cost.per.year
-CostsPerYearRaw$average.cost.per.period
-CostsPerYearRaw$average.total.cost
+ggplot(CostsPerYearRaw$cost.per.year,
+       aes(x = year, y = number_estimates,
+           size = cost)) +
+  geom_point() +
+  ylab("# estimates") +
+  xlab("year") +
+  theme_minimal()
+
+  ## cumulative costs
+  cost.cum <- cumsum(aggregate(CostsPerYearRaw$cost.per.year[,2],by=list(CostsPerYearRaw$cost.per.year[,1]),sum, na.rm=T)[,2])
+  est.cum <- cumsum(aggregate(CostsPerYearRaw$cost.per.year[,3],by=list(CostsPerYearRaw$cost.per.year[,1]),sum, na.rm=T)[,2])
+  Raw.dat <- data.frame(est.cum[-c(1:2)],cost.cum[-c(1:2)])
+  colnames(Raw.dat) <- c("cumest","cumcost")
+  par(mfrow=c(1,2))
+  plot((Raw.dat$cumest), (Raw.dat$cumcost), pch=19, cex=0.8, xlab="cumulate # estimates", ylab="cumulative cost (US$ billion)")
+  plot(log10(est.cum), log10(cost.cum), pch=19, cex=0.8, xlab="log cumulative # estimates", ylab="log cumulative cost (US$ billion)")
+  lfit <- lm(log10(Raw.dat$cumcost) ~ log10(Raw.dat$cumest))
+  abline(lfit, lty=2, col="red")
+  par(mfrow=c(1,1))
+
+  # back-transform
+  Raw.est.vec <- as.data.frame(seq(1,max(Raw.dat$cumest)))
+  colnames(Raw.est.vec) <- c("cumest")
+
+  pred.cost <- 10^(coef(lfit)[1] + coef(lfit)[2]*log10(Raw.est.vec$cumest))
+  plot((Raw.dat$cumest), (Raw.dat$cumcost), pch=19, cex=0.8, xlab="cumulate # estimates", ylab="cumulative cost (US$ billion)")
+  lines(Raw.est.vec$cumest, pred.cost, lty=2)
+
+  all.cumcostall.out <- data.frame(Raw.dat$cumest, Raw.dat$cumcost)
+  colnames(all.cumcostall.out) <- c("cumest","cumcost")
+  all.cumcostpred.out <- data.frame(Raw.est.vec$cumest, pred.cost)
+  colnames(all.cumcostpred.out) <- c("cumest","predcumcost")
 
 ## reliable costs
 CostsPerYearHigh <- calculateRawAvgCosts(AustraliaHigh, cost.column = "cost_bil",  in.millions = FALSE,  minimum.year = 1970, maximum.year = 2020)
 CostsPerYearHigh 
 plot(CostsPerYearRawHigh)
 
-CostsPerYearHigh$cost.per.year
-CostsPerYearHigh$average.cost.per.period
-CostsPerYearHigh$average.total.cost
+ggplot(CostsPerYearHigh$cost.per.year,
+       aes(x = year, y = number_estimates,
+           size = cost)) +
+  geom_point() +
+  ylab("# estimates") +
+  xlab("year") +
+  theme_minimal()
 
+  ## cumulative costs
+  cost.cum <- cumsum(aggregate(CostsPerYearHigh$cost.per.year[,2],by=list(CostsPerYearRaw$cost.per.year[,1]),sum, na.rm=T)[,2])
+  est.cum <- cumsum(aggregate(CostsPerYearHigh$cost.per.year[,3],by=list(CostsPerYearRaw$cost.per.year[,1]),sum, na.rm=T)[,2])
+  High.dat <- data.frame(est.cum[-c(1:2)],cost.cum[-c(1:2)])
+  colnames(High.dat) <- c("cumest","cumcost")
+  par(mfrow=c(1,2))
+  plot((High.dat$cumest), (High.dat$cumcost), pch=19, cex=0.8, xlab="cumulate # estimates", ylab="cumulative cost (US$ billion)")
+  plot(log10(High.dat$cumest), log10(High.dat$cumcost), pch=19, cex=0.8, xlab="log cumulative # estimates", ylab="log cumulative cost (US$ billion)")
+  lfit <- lm(log10(High.dat$cumcost) ~ log10(High.dat$cumest))
+  abline(lfit, lty=2, col="red")
+  par(mfrow=c(1,1))
+
+  # back-transform
+  High.est.vec <- as.data.frame(seq(1,max(High.dat$cumest)))
+  colnames(High.est.vec) <- c("cumest")
+
+  pred.cost <- 10^(coef(lfit)[1] + coef(lfit)[2]*log10(High.est.vec$cumest))
+  plot((High.dat$cumest), (High.dat$cumcost), pch=19, cex=0.8, xlab="cumulate # estimates", ylab="cumulative cost (US$ billion)")
+  lines(High.est.vec$cumest, pred.cost, lty=2)
+
+  high.cumcostraw.out <- data.frame(High.dat$cumest, High.dat$cumcost)
+  colnames(high.cumcostraw.out) <- c("cumest","cumcost")
+  high.cumcostpred.out <- data.frame(High.est.vec$cumest, pred.cost)
+  colnames(high.cumcostpred.out) <- c("cumest","predcumcost")
 
 ## time lag
 # all costs
