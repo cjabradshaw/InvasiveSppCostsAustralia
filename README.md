@@ -10,7 +10,7 @@ e-mail: corey.bradshaw@flinders.edu.au
 
 Accompanies paper:
 
-Bradshaw, CJA, P Haubrock, RN Cuthbert, C Diagne, B Leroy, L Andrews, B Page, AJ Hoskins, P Cassey, F Courchamp. In review. Comprehensive assessment of the economic costs of invasive alien species in Australia. NeoBiota
+Bradshaw, CJA, P Haubrock, RN Cuthbert, C Diagne, B Leroy, L Andrews, B Page, AJ Hoskins, P Cassey, F Courchamp. In review. Comprehensive assessment of the economic costs of invasive species in Australia. NeoBiota
 
 requires the following packages from the CRAN (https://cran.r-project.org)
 - sandwich
