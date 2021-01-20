@@ -36,7 +36,7 @@ see also original InvaCost database publication:
 as well as forthcoming paper in <i>Nature</i>:
 - Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) Increasing global economic costs of biological invasions. <i>Nature</i>: in review (first revision)
 
-# ENDNOTE LIBRARIES
+## ENDNOTE LIBRARIES
 Also included are two versions of an Endnote library containing the source references for the database
 - AustraliaCostsInvasiveSppEndnote.enlx (Endnote compressed library)
 - AustraliaCostsInvasiveSppEndnote.zip (zipped Endnote .enl file and data)
