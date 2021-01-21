@@ -1,5 +1,5 @@
 # InvasiveSppCostsAustralia
-R Code to calculate costs of invasive species in Australia <a href="http://doi.org/10.5281/zenodo.4455980"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4455980.svg"></a>
+R Code and data to calculate costs of invasive species in Australia <a href="http://doi.org/10.5281/zenodo.4455980"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4455980.svg"></a>
 
 
 (updated January 2021)
