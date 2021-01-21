@@ -1,5 +1,7 @@
 # InvasiveSppCostsAustralia
-R Code to calculate costs of invasive species in Australia
+R Code to calculate costs of invasive species in Australia <a href="http://doi.org/10.5281/zenodo.4455980"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4455980.svg"></a>
+
+
 (updated January 2021)
 
 Corey J. A. Bradshaw,
@@ -12,8 +14,6 @@ Flinders University
 Accompanies paper:
 
 Bradshaw, CJA, AJ Hoskins, PJ Haubrock, RN Cuthbert, C Diagne, B Leroy, L Andrews, B Page, P Cassey, AW Sheppard, F Courchamp. 2021. Detailed assessment of the reported economic costs of invasive species in Australia. <i>NeoBiota</i>. In press
-
-<a href="http://doi.org/10.5281/zenodo.4455980"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4455980.svg"></a>
 
 requires the following packages from the <a href="https://cran.r-project.org">CRAN</a>
 - sandwich
