@@ -7,8 +7,8 @@
 ################################################################
 
 ## Accompanies paper: Bradshaw, CJA, AJ Hoskins, PJ Haubrock, RN Cuthbert, C Diagne, B Leroy, L Andrews, B Page,
-##                      P Cassey, AW Sheppard, F Courchamp. In review. Detailed assessment of the reported economic costs of
-##                      invasive alien species in Australia. NeoBiota
+##                      P Cassey, AW Sheppard, F Courchamp. 2021. Detailed assessment of the reported economic costs of
+##                      invasive alien species in Australia. NeoBiota In press
 
 
 rm(list=ls())
