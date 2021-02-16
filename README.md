@@ -39,7 +39,7 @@ see also original InvaCost database publication:
 - Diagne C, Catford JA, Essl F, Nuñez MA, Courchamp F (2020a) What are the economic costs of biological invasions? A complex topic requiring international and interdisciplinary expertise. NeoBiota 63: 25-37. doi:<a href="http://doi.org/10.3897/neobiota.63.55260">10.3897/neobiota.63.55260</a>
 
 as well as forthcoming paper in <i>Nature</i>:
-- Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) Increasing global economic costs of biological invasions. <i>Nature</i>: in review (first revision)
+- Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) Increasing global economic costs of biological invasions. <i>Nature</i>: in press
 
 ## ENDNOTE LIBRARIES
 Also included are two versions of an Endnote library containing the source references for the database
