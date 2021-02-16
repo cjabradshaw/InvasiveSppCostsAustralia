@@ -34,12 +34,12 @@ requires the following filtered dataset for Australia
 - AustraliaUpdate3.csv
 
 see also original InvaCost database publication:
--  Diagne C, Leroy B, Gozlan RE, Vaissière A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. <i>Scientific Data</i> 7: 277. doi:<a href="http://doi.org/10.1038/s41597-020-00586-z">10.1038/s41597-020-00586-z</a>
+-  Diagne C, Leroy B, Gozlan RE, Vaissière A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. <em>Scientific Data</em> 7: 277. doi:<a href="http://doi.org/10.1038/s41597-020-00586-z">10.1038/s41597-020-00586-z</a>
 
-- Diagne C, Catford JA, Essl F, Nuñez MA, Courchamp F (2020a) What are the economic costs of biological invasions? A complex topic requiring international and interdisciplinary expertise. NeoBiota 63: 25-37. doi:<a href="http://doi.org/10.3897/neobiota.63.55260">10.3897/neobiota.63.55260</a>
+- Diagne C, Catford JA, Essl F, Nuñez MA, Courchamp F (2020a) What are the economic costs of biological invasions? A complex topic requiring international and interdisciplinary expertise. <em>NeoBiota</em> 63: 25-37. doi:<a href="http://doi.org/10.3897/neobiota.63.55260">10.3897/neobiota.63.55260</a>
 
 as well as forthcoming paper in <i>Nature</i>:
-- Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) Increasing global economic costs of biological invasions. <i>Nature</i>: in press
+- Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) Increasing global economic costs of biological invasions. <em>Nature</em>: in press
 
 ## ENDNOTE LIBRARIES
 Also included are two versions of an Endnote library containing the source references for the database
