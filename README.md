@@ -19,19 +19,19 @@ Accompanies paper:
 <a href="http://www.flinders.edu.au/people/corey.bradshaw">Bradshaw, CJA</a>, <a href="https://people.csiro.au/H/A/Andrew-Hoskins">AJ Hoskins</a>, <a href="https://scholar.google.com/citations?hl=de&user=fwHUGm0AAAAJ&view_op=list_works&sortby=pubdate">PJ Haubrock</a>, <a href="https://www.rosscuthbert.org">RN Cuthbert</a>, <a href="https://www.ese.universite-paris-saclay.fr/en/team-members/christophe-diagne/">C Diagne</a>, <a href="https://borisleroy.com">B Leroy</a>, <a href="https://www.linkedin.com/in/lindell-andrews-51bb59105/?originalSubdomain=au">L Andrews</a>, <a href="https://invasives.com.au/news-events/introducing-the-people-of-ciss-dr-brad-page/">B Page</a>, <a href="http://www.cassey-invasion-ecology.org/people.html">P Cassey</a>, <a href="https://people.csiro.au/S/A/Andy-Sheppard">AW Sheppard</a>, <a href="http://max2.ese.u-psud.fr/epc/conservation/pages/Franck/homepage.html">F Courchamp</a>. 2021. Detailed assessment of the reported economic costs of invasive species in Australia. <i>NeoBiota</i>. In press
 
 requires the following packages from the <a href="https://cran.r-project.org">CRAN</a>
-- sandwich
-- ggalluvial
-- lmtest
-- robustbase
-- ggplot2
-- ggpubr
-- plyr
-- dplyr
-- grid
+- <a href="https://cran.r-project.org/web/packages/sandwich/index.html">sandwich</a>
+- <a href="https://cran.r-project.org/web/packages/ggalluvial/index.html">ggalluvial</a>
+- <a href="https://cran.r-project.org/web/packages/lmtest/index.html">lmtest</a>
+- <a href="https://cran.r-project.org/web/packages/robustbase/index.html">robustbase</a>
+- <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a>
+- <a href="https://cran.r-project.org/web/packages/ggpubr/index.html">ggpubr</a>
+- <a href="https://cran.r-project.org/web/packages/plyr/index.html">plyr</a>
+- <a href="https://cran.r-project.org/web/packages/dplyr/index.html">dplyr</a>
+- <a href="https://cran.r-project.org/web/packages/grid/index.html">grid</a>
 - invacost (obtained from <a href="mailto:leroy.boris@gmail.com">Boris Leroy</a>; pre-print <a href="http://doi.org/10.1101/2020.12.10.419432">here</a>)
 
 requires the following filtered dataset for Australia
-- AustraliaUpdate3.csv
+- <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaUpdate3.csv">AustraliaUpdate3.csv</a>
 
 see also original InvaCost database publication:
 -  Diagne C, Leroy B, Gozlan RE, Vaissière A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. <em>Scientific Data</em> 7: 277. doi:<a href="http://doi.org/10.1038/s41597-020-00586-z">10.1038/s41597-020-00586-z</a>
@@ -43,6 +43,6 @@ as well as forthcoming paper in <i>Nature</i>:
 
 ## ENDNOTE LIBRARIES
 Also included are two versions of an Endnote library containing the source references for the database
-- AustraliaCostsInvasiveSppEndnote.enlx (Endnote compressed library)
-- AustraliaCostsInvasiveSppEndnote.zip (zipped Endnote .enl file and data)
+- <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaCostsInvasiveSppEndnote.enlx">AustraliaCostsInvasiveSppEndnote.enlx</a> (Endnote compressed library)
+- <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaCostsInvasiveSppEndnote.zip">AustraliaCostsInvasiveSppEndnote.zip</a> (zipped Endnote .enl file and data)
 
