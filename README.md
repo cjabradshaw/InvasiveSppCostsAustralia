@@ -19,16 +19,16 @@ Accompanies paper:
 <a href="http://www.flinders.edu.au/people/corey.bradshaw">Bradshaw, CJA</a>, <a href="https://people.csiro.au/H/A/Andrew-Hoskins">AJ Hoskins</a>, <a href="https://scholar.google.com/citations?hl=de&user=fwHUGm0AAAAJ&view_op=list_works&sortby=pubdate">PJ Haubrock</a>, <a href="https://www.rosscuthbert.org">RN Cuthbert</a>, <a href="https://www.ese.universite-paris-saclay.fr/en/team-members/christophe-diagne/">C Diagne</a>, <a href="https://borisleroy.com">B Leroy</a>, <a href="https://www.linkedin.com/in/lindell-andrews-51bb59105/?originalSubdomain=au">L Andrews</a>, <a href="https://invasives.com.au/news-events/introducing-the-people-of-ciss-dr-brad-page/">B Page</a>, <a href="http://www.cassey-invasion-ecology.org/people.html">P Cassey</a>, <a href="https://people.csiro.au/S/A/Andy-Sheppard">AW Sheppard</a>, <a href="http://max2.ese.u-psud.fr/epc/conservation/pages/Franck/homepage.html">F Courchamp</a>. 2021. Detailed assessment of the reported economic costs of invasive species in Australia. <i>NeoBiota</i>. In press
 
 requires the following packages from the <a href="https://cran.r-project.org">CRAN</a>
-- <a href="https://cran.r-project.org/web/packages/sandwich/index.html">sandwich</a>
-- <a href="https://cran.r-project.org/web/packages/ggalluvial/index.html">ggalluvial</a>
-- <a href="https://cran.r-project.org/web/packages/lmtest/index.html">lmtest</a>
-- <a href="https://cran.r-project.org/web/packages/robustbase/index.html">robustbase</a>
-- <a href="https://cran.r-project.org/web/packages/ggplot2/index.html">ggplot2</a>
-- <a href="https://cran.r-project.org/web/packages/ggpubr/index.html">ggpubr</a>
-- <a href="https://cran.r-project.org/web/packages/plyr/index.html">plyr</a>
-- <a href="https://cran.r-project.org/web/packages/dplyr/index.html">dplyr</a>
-- <a href="https://cran.r-project.org/web/packages/grid/index.html">grid</a>
-- invacost (obtained from <a href="mailto:leroy.boris@gmail.com">Boris Leroy</a>; pre-print <a href="http://doi.org/10.1101/2020.12.10.419432">here</a>)
+- <a href="https://cran.r-project.org/web/packages/sandwich/index.html"><code>sandwich</code></a>
+- <a href="https://cran.r-project.org/web/packages/ggalluvial/index.html"><code>ggalluvial</code></a>
+- <a href="https://cran.r-project.org/web/packages/lmtest/index.html"><code>lmtest</code></a>
+- <a href="https://cran.r-project.org/web/packages/robustbase/index.html"><code>robustbase</code></a>
+- <a href="https://cran.r-project.org/web/packages/ggplot2/index.html"><code>ggplot2</code></a>
+- <a href="https://cran.r-project.org/web/packages/ggpubr/index.html"><code>ggpubr</code></a>
+- <a href="https://cran.r-project.org/web/packages/plyr/index.html"><code>plyr</code></a>
+- <a href="https://cran.r-project.org/web/packages/dplyr/index.html"><code>dplyr</code></a>
+- <a href="https://cran.r-project.org/web/packages/grid/index.html"><code>grid</code></a>
+- <code>invacost</code> (obtained from <a href="mailto:leroy.boris@gmail.com">Boris Leroy</a>; pre-print <a href="http://doi.org/10.1101/2020.12.10.419432">here</a>)
 
 requires the following filtered dataset for Australia
 - <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaUpdate3.csv">AustraliaUpdate3.csv</a>
