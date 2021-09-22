@@ -1,4 +1,5 @@
-# InvasiveSppCostsAustralia
+# Invasive Species Costs in Australia
+<img align="right" src="bunny.png" alt="bunny" width="200" style="margin-top: 20px">
 
 <a href="http://doi.org/10.5281/zenodo.4455980"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4455980.svg"></a>
 
