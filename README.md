@@ -25,8 +25,6 @@ The legacy of deliberate and accidental introductions of invasive alien species 
 <br>
 
 ## Requires the following packages from the <a href="https://cran.r-project.org">CRAN</a>
-
-## Requires the following packages from the <a href="https://cran.r-project.org">CRAN</a>
 - <a href="https://cran.r-project.org/web/packages/sandwich/index.html"><code>sandwich</code></a>
 - <a href="https://cran.r-project.org/web/packages/ggalluvial/index.html"><code>ggalluvial</code></a>
 - <a href="https://cran.r-project.org/web/packages/lmtest/index.html"><code>lmtest</code></a>
