@@ -47,7 +47,7 @@ The legacy of deliberate and accidental introductions of invasive alien species 
 as well as this paper in <i>Nature</i>:
 - Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, Salles J-M, Bradshaw CJA, Courchamp F (2021) <a href="http://doi.org/10.1038/s41586-021-03405-6">High and rising economic costs of biological invasions worldwide</a>. <em>Nature</em> 592: 571-576. doi:10.1038/s41586-021-03405-6
 
-## ENDNOTE LIBRARIES
+## ENDNOTE libraries
 Also included are two versions of an Endnote library containing the source references for the database
 - <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaCostsInvasiveSppEndnote.enlx">AustraliaCostsInvasiveSppEndnote.enlx</a> (Endnote compressed library)
 - <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaCostsInvasiveSppEndnote.zip">AustraliaCostsInvasiveSppEndnote.zip</a> (zipped Endnote .enl file and data)
