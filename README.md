@@ -36,7 +36,7 @@ The legacy of deliberate and accidental introductions of invasive alien species 
 - <a href="https://cran.r-project.org/web/packages/plyr/index.html"><code>plyr</code></a>
 - <a href="https://cran.r-project.org/web/packages/dplyr/index.html"><code>dplyr</code></a>
 - <a href="https://cran.r-project.org/web/packages/grid/index.html"><code>grid</code></a>
-- <a href="https://github.com/cjabradshaw/invacost"><code>invacost</code></a>)
+- <a href="https://github.com/cjabradshaw/invacost"><code>invacost</code></a>
 
 ## Requires the following filtered dataset for Australia
 - <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaUpdate3.csv">AustraliaUpdate3.csv</a>
