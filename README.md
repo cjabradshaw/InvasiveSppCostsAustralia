@@ -39,7 +39,7 @@ The legacy of deliberate and accidental introductions of invasive alien species 
 - <a href="https://github.com/cjabradshaw/invacost"><code>invacost</code></a>
 
 ## Requires the following filtered dataset for Australia
-- <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaUpdate3.csv">AustraliaUpdate3.csv</a>
+- <a href="https://github.com/cjabradshaw/InvasiveSppCostsAustralia/blob/master/AustraliaUpdate3.csv">AustraliaUpdate3.csv</a> (NOTE: this dataset is based mainly on the InvaCost database, which is an evolving, '<a href="https://borisleroy.com/invacost/invacost_livingfigure.html">living</a>' database updated regularly; this means that the estimated costs for Australia are probably already out-of-date)
 
 ## See also original <em>InvaCost</em> database publication:
 -  Diagne C, Leroy B, Gozlan RE, Vaissière A-C, Assailly C, Nuninger L, Roiz D, Jourdain F, Jarić I, Courchamp F (2020) InvaCost, a public database of the economic costs of biological invasions worldwide. <em>Scientific Data</em> 7: 277. doi:<a href="http://doi.org/10.1038/s41597-020-00586-z">10.1038/s41597-020-00586-z</a>
